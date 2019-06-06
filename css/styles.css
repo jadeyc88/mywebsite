@@ -1,0 +1,98 @@
+body {
+    background: rgb(241, 202, 208);
+    color: black;
+    
+   }
+
+nav ul {
+    font-size: 20px;
+    margin: 20px; 
+    padding: 5px;
+    list-style-type: none; 
+    background: grey;
+    display: flex;
+    justify-content: flex-end;
+    width: 97%;
+  }
+
+nav ul li a{
+  color: black
+}
+  
+nav li {
+  margin: 0 10px;
+}
+.about {
+  background: rgb(136, 127, 133);
+}
+ 
+div, p {
+  height:40px;
+  width: 150px; 
+  padding: 20px; 
+  margin: 20px;
+  display: inline;
+  }
+
+.special {color: black;
+          }
+
+h1      {
+        font-size: 40px;      
+        font-family: 'Bodoni', cursive;
+        font-weight: 500;
+        text-shadow: 2px 4px 1px purple;
+        text-align: center;
+        }
+h2      {
+        text-transform: uppercase;
+        font-family: 'Modak', cursive;
+        font-size: 25px;
+        font-style: italic;
+        text-align: center;
+        }
+h3 {
+        font color: black;
+        text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+        color: rgb(228, 228, 240);
+}
+
+/**below image refers to flexslider**/
+img {
+  float: center;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.flexslider .slides li img{
+  height: 50%;
+  width: 100%;
+}
+
+#socialicons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+@media (max-width: 940px) {
+  body {
+    background: pink;
+  }
